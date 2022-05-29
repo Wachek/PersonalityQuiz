@@ -56,15 +56,55 @@
 		8B30267C2843652D00EDF81A /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				8B30267D2843652D00EDF81A /* AppDelegate.swift */,
-				8B30267F2843652D00EDF81A /* SceneDelegate.swift */,
-				8B3026812843652D00EDF81A /* ViewController.swift */,
-				8B3026832843652D00EDF81A /* Main.storyboard */,
-				8B3026862843653100EDF81A /* Assets.xcassets */,
-				8B3026882843653100EDF81A /* LaunchScreen.storyboard */,
-				8B30268B2843653200EDF81A /* Info.plist */,
+				8B3026922843CA5D00EDF81A /* ViewControllers */,
+				8B3026952843CBDB00EDF81A /* Models */,
+				8B3026912843CA4500EDF81A /* Storyboards */,
+				8B3026932843CA8800EDF81A /* Resources */,
+				8B3026942843CA9B00EDF81A /* Support */,
 			);
 			path = PersonalityQuiz;
+			sourceTree = "<group>";
+		};
+		8B3026912843CA4500EDF81A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8B3026832843652D00EDF81A /* Main.storyboard */,
+				8B3026882843653100EDF81A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8B3026922843CA5D00EDF81A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B3026812843652D00EDF81A /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8B3026932843CA8800EDF81A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B3026862843653100EDF81A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B3026942843CA9B00EDF81A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8B30267D2843652D00EDF81A /* AppDelegate.swift */,
+				8B30267F2843652D00EDF81A /* SceneDelegate.swift */,
+				8B30268B2843653200EDF81A /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		8B3026952843CBDB00EDF81A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +328,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalityQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalityQuiz/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,7 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,10 +356,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalityQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalityQuiz/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +372,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
