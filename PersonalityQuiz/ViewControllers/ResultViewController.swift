@@ -21,6 +21,8 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         resultLabel.text = "Вы - \(result.rawValue)"
         descriptionLabel.text = "\(result.definition)"
+        
+        navigationItem.setHidesBackButton(true, animated: true)
     }
 
     private func getResult(with answers: [Answer]) -> Animal {
